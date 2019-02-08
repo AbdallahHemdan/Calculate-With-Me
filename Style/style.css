@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #DB5550;
+}
+
+.Main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.textview {
+    width: 257px;
+    margin: 5px;
+    font-size: 20px;
+    padding: 2px;
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    font-size: 30px;
+    background: rgb(92, 170, 150);
+    border: none;
+    font-weight: bold;
+    color: white;
+    
+    /* Cursor Property Used To Specfiy The Shape Of The Mouse When 
+    It Comes Over The Button 
+    grab ==> Hand*/
+    cursor: grabbing;
+}
+.button:hover{
+    color:yellow;
+    font-size:40px;
+}
+.Intro h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin: 10px 0px 0px 20px;
+    font-family: monospace;
+    text-align: left;
+    font-weight: 200px;
+    white-space: pre;
+    text-shadow: 0px 1px 0px #999,
+        0px 0.5px 0px #888, 0px 4px 0px #777, 0px 4px 0px #666,
+        0px 5px 0px #555, 0px 6px 0px #444, 0px 1px 0px #333,
+        0px 5px 7px #001135;
+}
+
+h1:hover {
+    color: yellow;
+    font-size: 45px;
+}
+
+p {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#Simple {
+    font-size: 50px;
+    font-weight: 200px;
+    font-family: monospace;
+    color: #FFFFFF;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 5px;
+    white-space: pre;
+    text-shadow: 0px 1px 0px #999,
+    0px 0.5px 0px #888, 0px 4px 0px #777, 0px 4px 0px #666,
+    0px 5px 0px #555, 0px 6px 0px #444, 0px 1px 0px #333,
+    0px 5px 7px #001135;
+}
+
+#Simple:hover {
+    color: rgb(255, 255, 0);
+    font-size:55px;
+}
